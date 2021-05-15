@@ -9,7 +9,7 @@ body{
 }
 
 .img{
-    margin-left: -300px;
+    margin-left: -290px;
     margin-top: 30px; 
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +34,11 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.form > div{
+position: relative;
+box-sizing: border-box;
 }
 
 .form input{ 
@@ -81,5 +86,22 @@ h2{
 
 .bottom a:hover{
     text-decoration: underline;
+}
+
+.form input+label{
+    position: absolute;
+    font-size: 15px;
+    left: 10px;
+    top: 40px;
+    transition: 0.3s;
+    color: rgb(73, 71, 71);
+}
+
+.form input:not(:placeholder-shown) + label,
+.form input:focus + label{
+  font-size: 85%;
+  top: 25px;
+  font-weight: 500;
+  color: rgb(73, 167, 230);
 }
 
