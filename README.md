@@ -1,3 +1,3 @@
 # twitter-login
-https://gabbycool.github.io/twitter-log-in/
+https://getrudeaturu.github.io/twitter-log-in/
  
